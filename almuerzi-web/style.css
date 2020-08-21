@@ -1,0 +1,98 @@
+body{
+    background-color: #eee;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+#app{
+    display: flex;
+}
+
+#app div{
+    flex-grow: 1;
+    background-color: white;
+}
+
+/*body div:first-child{
+    margin-left: 0px;
+}*/
+
+#orders{
+    margin: 10px 0px 10px 10px;
+}
+
+#meals{
+    margin: 10px 10px 10px 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+#submit{
+    background-color: #2a91bd;
+    padding: 15px;
+    color: white;
+    border: 0px solid;
+    border-radius: 25px;
+    margin: 15px;
+    margin-left: 40px;
+}
+
+#submit:disabled{
+    background-color: #cccccc;
+}
+
+#meals-list{
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #eee;
+}
+
+.formTitle{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.formMain{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 7px;
+    border: 0 solid;
+    background-color: white;
+    padding: 30px;
+}
+
+.login-form{
+    margin: 5px;
+}
+
+
+.loginButton{
+    margin: 10px;
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
+    background-color: #2a91bd;
+    color: white;
+    border: 0px solid;
+    border-radius: 25px;
+    width: calc(100% - 30px);
+}
+
+.textBox{
+    width: calc(100% - 10px);
+    background-color: #eee;
+    margin-top: 10px;
+    padding-left: 7px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0 solid;
+    margin-bottom: 25px;
+}

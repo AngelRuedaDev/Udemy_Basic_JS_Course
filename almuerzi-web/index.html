@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Almuerzi</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+        <div id="app">
+
+        </div>
+    </body>
+
+    <template id="login-view">
+        <div class="formMain">
+            <p class="formTitle">Login</p>
+            <form class="login-form" id="loginForm">
+                <div>
+                    <label>Email: </label>
+                    <input id="email" class="textBox" placeholder="Email">
+                </div>
+                <div>
+                    <label>Password: </label>
+                    <input type="password" id="password" class="textBox" placeholder="Password">
+                </div>
+                <input type="submit" value="LogIn" class="loginButton">
+            </form>
+        </div>
+    </template>
+
+    <template id="orders-view">
+        <div id="meals">
+            <ul id="meals-list">
+                <p> Cargando ... </p>
+            </ul>
+
+            <form id="order">
+                <input id="meals-id" type="hidden">
+                <input id="submit" type="submit" value="Enviar" disabled>
+            </form>
+        </div>
+
+
+        <div id="orders">
+            <ul id="orders-list">
+                <p>Cargando ...</p>
+            </ul>
+        </div>
+    </template>
+
+    <script src="main.js"></script>
+</html>
